@@ -6,7 +6,11 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "modulus": "^6.3.1"
+    "http": "^0.0.0",
+    "modulus": "^6.3.1",
+    "morgan": "^1.7.0",
+    "node-wit": "file:node-wit",
+    "request": "^2.74.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -15,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fbsamples/messenger-platform-samples.git"
+    "url": "git+ssh://git@github.com/boxingnguyen/chatbot.git"
   },
   "author": "QuyenAnh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fbsamples/messenger-platform-samples/issues"
+    "url": "https://github.com/boxingnguyen/chatbot/issues"
   },
-  "homepage": "https://github.com/fbsamples/messenger-platform-samples#readme"
+  "homepage": "https://github.com/boxingnguyen/chatbot#readme"
 }
